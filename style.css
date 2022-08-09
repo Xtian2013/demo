@@ -1,0 +1,128 @@
+body{
+    height: 600px;
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container1{
+    background-image: url(bg-pattern-top-desktop.svg);
+    height: 280px;
+    width: 900px;
+}
+
+
+.header-div{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding:50px;
+}
+
+#header-div-2{
+    float:right;
+    margin-top: 20px;
+}
+
+#header{
+    color: hsl(300, 43%, 22%); 
+    font-family: 'League Spartan', sans-serif;
+    width:270px;
+}
+
+#paragraph-1{
+    color: hsl(303, 10%, 53%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    width:400px;
+    line-height: 25px;
+}
+
+.star-paragraph{
+    background-color:  hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%); 
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#star-paragraph-1{
+    margin-left: -50px;
+    width:350px;
+    height:40px;
+    border-radius: 5px;
+}
+
+#star-paragraph-2{
+    margin-left: -25px;
+    width:350px;
+    height:40px;
+    border-radius: 5px;
+}
+
+#star-paragraph-3{
+     margin-right: 30px;
+     width:350px;
+     height:40px;
+     border-radius: 5px;
+}
+
+.container2{
+    display:grid;
+    gap:2rem;
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width:893px) {
+        /* grid-template-columns: repeat(2, 1fr); */
+        display: block;
+    }
+}
+
+.profile{
+    height: 200px;
+    width: 270px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    display: inline-block;
+    @media (max-width: 893px) {
+      display: block;
+    }
+}
+
+.div-two{
+    margin-top: 2rem;
+}
+.div-three{
+    margin-top: 4rem;
+}
+
+.pro-pic{
+    border-radius: 200px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+}
+
+.name{
+    color: white;
+    margin-left: 20px;
+    text-align: right;
+    font-family: 'League Spartan', sans-serif;
+    width: 150px;
+}
+
+.status{
+    color: hsl(333, 80%, 67%);
+    margin: -20px 50px 30px -25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+    width: 200px;
+    text-align: right;
+}
+
+.about{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+    padding:11px;   
+}
